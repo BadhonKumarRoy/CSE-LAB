@@ -1,1 +1,1 @@
-Create a webpage that displays your hometown's name and an image of it using only HTML.
+Create a webpage that displays your hometown's name and an image of it.

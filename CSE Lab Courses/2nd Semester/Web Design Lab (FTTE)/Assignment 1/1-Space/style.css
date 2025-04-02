@@ -1121,6 +1121,41 @@
     width: 1195.19px;
     height: 710.42px;
 }
+.gallery_text_header{
+    position: absolute;
+    left: 135px;
+    top: 4411.95px;
+    width: 89.85px;
+    height: 22.98px;
+    background-color: transparent;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 18.81px;
+    letter-spacing: -0.3px;
+    color: #FD5B2F;
+    transition: 0.4s;
+}
+.gallery_text_header:hover{
+    color: #FFDB80;
+}
+.immersiveBeautiful_text{
+    position: absolute;
+    left: 135px;
+    top: 4440.15px;
+    width: 613.26px;
+    height: 142.08px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 71px;
+    letter-spacing: -2.7px;
+    word-spacing: 1.5px;
+    font-size: 52.24px;
+}
 
 
 /* division7 */

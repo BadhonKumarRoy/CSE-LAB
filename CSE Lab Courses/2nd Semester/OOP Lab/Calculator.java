@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Calculator{
+class test{
 	double a, b;
 	void initializer(double a, double b){
 		this.a = a;
@@ -8,25 +8,30 @@ class Calculator{
 	void sum(){
 		double sum = a + b;
 		System.out.println();
-		System.out.println("   The sum of "+ a +" and "+ b + " is ("+ sum + ").");
+		System.out.println("   The summation of "+ a +" and "+ b + " is ("+ sum + ").");
 		System.out.println();
 	}
 	void sub(){
 		double sub = a - b;
 		System.out.println();
-		System.out.println("   The sub of "+ a +" and "+ b + " is ("+ sub + ").");
+		System.out.println("   The subtraction of "+ a +" and "+ b + " is ("+ sub + ").");
 		System.out.println();
 	}
 	void mul(){
 		double mul = a * b;
 		System.out.println();
-		System.out.println("   The mul of "+ a +" and "+ b + " is ("+ mul + ").");
+		System.out.println("   The multiplication of "+ a +" and "+ b + " is ("+ mul + ").");
 		System.out.println();
 	}
 	void div(){
 		double div = a / b;
 		System.out.println();
-		System.out.println("   The div of "+ a +" and "+ b + " is ("+ div + ").");
+        if(b == 0){
+            System.out.println("   Error: Division by zero is not allowed.");
+        }
+        else{
+            System.out.println("   The division of "+ a +" and "+ b + " is ("+ div + ").");
+        }
 		System.out.println();
 	}
 
@@ -40,7 +45,7 @@ class Calculator{
 					double num1 = scan.nextDouble();
 					System.out.print("   Enter the second number - ");
 					double num2 = scan.nextDouble();
-					Calculator c1 = new Calculator();
+					test c1 = new test();
 					c1.initializer(num1, num2);
 					System.out.println("   Enter a value 1 to 4..");
 					System.out.println("   Where-");
